@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/me/me",
+    "pages/serch/serch",
+    "pages/recommend/recommend"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F8080F",
+    "navigationBarTitleText": "YOUTH",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false,
+    "pageOrientation": "portrait"
+  },
+ "tabBar": {
+  "selectedColor": "#f00",
+  "position": "bottom",
+  "borderStyle": "black",
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/res/icons/home.png",
+      "selectedIconPath": "/res/icons/home_active.png"
+    },
+    {
+      "pagePath": "pages/recommend/recommend",
+      "text": "推荐",
+      "iconPath": "/res/icons/commend.png",
+      "selectedIconPath": "/res/icons/commend_active.png"
+    },
+    {
+      "pagePath": "pages/serch/serch",
+      "text": "发现",
+      "iconPath": "/res/icons/serch.png",
+      "selectedIconPath": "/res/icons/serch_active.png"
+    },
+    {
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "/res/icons/me.png",
+      "selectedIconPath": "/res/icons/me_active.png"
+    }
+    
+  ]
+},
+"style": "v2",
+"sitemapLocation": "sitemap.json"
+}
