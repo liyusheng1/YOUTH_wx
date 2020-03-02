@@ -1,9 +1,8 @@
-<view class="li">列表1</view>
-<view class="li">列表1</view>
-<view class="li">列表1</view>
-<view class="li">列表1</view>
-<view class="li">列表1</view>
-<view class="li">列表1</view>
-<view class="li">列表1</view>
-<view class="li">列表1</view>
-<view class="li">列表1</view>
+<!--index.wxml-->
+<view class="a_li">
+  <view wx:for="{{ items }}" wx:key="l1" class="li" bindtap="showDetail" data-proid="{{item.s_id}}">
+    <image src="{{item.img_link}}" 
+        lazy-load="true" class="sentenceimg"></image>
+    <view>{{item.sentence}}</view>
+  </view>
+</view>

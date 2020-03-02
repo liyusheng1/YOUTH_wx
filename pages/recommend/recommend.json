@@ -3,5 +3,7 @@
   "navigationBarBackgroundColor": "#f8080f",
   "navigationBarTitleText": "推荐",
   "enablePullDownRefresh": true,
-  "usingComponents": {}
+  "usingComponents": {
+    "artlist":"/components/articlelist/artlist"
+  }
 }

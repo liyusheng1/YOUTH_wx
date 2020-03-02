@@ -1,0 +1,13 @@
+<!--components/articlelist/artlist.wxml-->
+<view>{{ content }}</view>
+<view class="li" bindtap="showArticle" data-id="1">文章1</view>
+<view class="li">文章2</view>
+<view class="li">文章3</view>
+<view class="li">文章4</view>
+<view class="li">文章5</view>
+<view class="li">文章6</view>
+<view class="li">文章7</view>
+<view class="li">文章8</view>
+<view class="li">文章9</view>
+<view class="li">文章10</view>
+<view class="li">文章11</view>
